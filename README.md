@@ -7,6 +7,19 @@
 PineappleCAS is a computer algebra system for the TI-84 Plus CE calculators. It is designed as a faster, cleaner, more useful, memory-leak-free alternative to the <a href="https://github.com/nathanfarlow/SymbolicDerivative">SymbolicDerivative</a> project. PineappleCAS uses the <a href="https://github.com/creachadair/imath">imath library</a> for arbitrary precision math.
 </p>
 
+
+## Credits
+
+- **Original PineappleCAS** by Nathan Farlow
+
+  
+- **Windows compatibility** fixes by [DaiGianna Williams](https://daigianna.com) ([GitHub](https://github.com/dwilliams808)).
+  
+This includes:
+- Fix for `_expand` naming conflict with Windows system headers
+- Windows-compatible makefile (`pc.windows.makefile`)
+
+
 <hr>
 
 ## Screenshots
@@ -157,11 +170,3 @@ Remember that you can definitely use strings as input and output as well. You ca
 :End
 ```
 
-
-## Credits
-
-- **Original PineappleCAS** by Nathan Farlow
-- **Windows compatibility** fixes by [DaiGianna Williams](https://daigianna.com) ([GitHub](https://github.com/dwilliams808)).
-This includes:
-- Fix for `_expand` naming conflict with Windows system headers
-- Windows-compatible makefile (`pc.windows.makefile`)
