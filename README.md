@@ -161,7 +161,7 @@ Remember that you can definitely use strings as input and output as well. You ca
 ## Credits
 
 - **Original PineappleCAS** by Nathan Farlow
-Windows compatibility fixes by [DaiGianna Williams](https://daigianna.com) ([GitHub](https://github.com/dwilliams808)).
+- **Windows compatibility** fixes by [DaiGianna Williams](https://daigianna.com) ([GitHub](https://github.com/dwilliams808)).
 This includes:
 - Fix for `_expand` naming conflict with Windows system headers
 - Windows-compatible makefile (`pc.windows.makefile`)
